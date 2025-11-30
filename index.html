@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <span>Vishnu</span>
+            </div>
+            <div class="links">
+                <div class="link"></div><a href="#index.html">Home</a>
+                <div class="link"></div><a href="#">About</a>
+                <div class="link"></div><a href="#">Skills</a>
+                <div class="link"></div><a href="#">Services</a>
+                <div class="link"></div><a href="#">Blog</a>
+                <div class="link contact-btn"><a href="#">Contact Us</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Skills</a>
+                <a href="">Services</a>
+                <a href="">Blog</a>
+                <a href="">Contact</a>
+                <i class="fa-solid fa-xmark cancel"></i>
+            </div>
+        </div>
+         </nav>
+        <section>
+            <div class="main-container">
+                <div class="img">
+                    <img src="my image" alt="">
+                </div>
+                <div class="content">
+                    <h1>Hey I'm <span>Vishnu</span></h1>
+                    <div class="typewriter">I'm <span></span></div>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti dicta eveniet architecto natus
+                    veritatis unde nesciunt doloribus ducimus commodi aut odit deserunt beatae modi earum consequuntur,
+                    explicabo quasi, nostrum sapiente obcaecati autem. Animi dolore enim architecto et! Esse iusto,
+                    minus eligendi dignissimos consectetur labore necessitatibus, voluptatem itaque explicabo,
+                    recusandae iste?
+                    <div class="social-links">
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <div class="btn">
+                        <button>Download CV</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+   
+        <script>
+            function humburg(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(0px)";
+            }
+        </script>
+</body>
+
+</html>
